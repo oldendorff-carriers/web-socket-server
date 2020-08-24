@@ -1,0 +1,21 @@
+{
+  "author": {
+    "name": "ionic"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@types/cordova": "latest"
+  },
+  "deprecated": false,
+  "description": "Ionic Native - Native plugins for ionic apps",
+  "homepage": "https://github.com/quantusflow/web-socket-server#readme",
+  "license": "MIT",
+  "module": "index.js",
+  "name": "@quantusflow/web-socket-server",
+  "peerDependencies": {
+    "rxjs": "^5.5.0 || ^6.5.0",
+    "@ionic-native/core": "^5.1.0"
+  },
+  "typings": "index.d.ts",
+  "version": "5.27.0"
+}
