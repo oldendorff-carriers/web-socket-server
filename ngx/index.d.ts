@@ -9,10 +9,10 @@ export interface WebSocketInterface {
     ipv6Addresses: string[];
 }
 export interface WebSocketOptions {
-    onMessage?: any;
-    onOpen?: any;
-    onClose?: any;
-    onFailure?: any;
+    onMessage?: (connection: WebSocketConnection, message: string) => void;
+    onOpen?: (connection: WebSocketConnection) => void;
+    onClose?: (closeEvent: WebSocketClose) => void;
+    onFailure?: (failureEvent: WebSocketFailure) => void;
     origins?: string[];
     protocols?: string[];
     tcpNoDelay?: boolean;
