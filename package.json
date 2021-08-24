@@ -8,10 +8,10 @@
   },
   "deprecated": false,
   "description": "Ionic Native - Native plugins for ionic apps",
-  "homepage": "https://github.com/quantusflow/web-socket-server#readme",
+  "homepage": "https://github.com/oldendorff/web-socket-server#readme",
   "license": "MIT",
   "module": "index.js",
-  "name": "@quantusflow/web-socket-server",
+  "name": "@oldendorff/web-socket-server",
   "peerDependencies": {
     "rxjs": "^5.5.0 || ^6.5.0",
     "@ionic-native/core": "^5.1.0"
